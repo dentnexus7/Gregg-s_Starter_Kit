@@ -36,8 +36,8 @@ class App extends Component {
     // Load Contracts
     // const <Contract>Data = <Contract>.networks[networkdId];
     // if(<Contract>Data) {
-    //   const <ContractInstanceName> = new web3.eth.Contract(<Contract>.abi, <Contract>.address);
-    //   this.setState ({ <ContractInstanceName>: <ContractInstanceName>});
+    //   const <ContractInstanceName> = new web3.eth.Contract(<Contract>.abi, <Contract>Data.address);
+    //   this.setState ({ <ContractInstanceName>});
     // } else {
     //   window.alert("<Contract> contract not deployed to detected network");
     // }
@@ -51,7 +51,7 @@ class App extends Component {
     this.state = {
       account: '',
       loading: true
-      // contract: ''
+      // <ContractInstanceName>: null
     }
   }
 
